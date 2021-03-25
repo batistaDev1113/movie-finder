@@ -2,5 +2,10 @@
   "emmet.extensionsPath": "",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+},
+"files.associations": {
+    "*.json": "jsonc"
+}
+
+
 }
