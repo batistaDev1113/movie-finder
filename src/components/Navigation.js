@@ -8,8 +8,8 @@ function Navigation({ updateSearchQuery }) {
   };
 
   const formSubmit = (e) => {
+    e.preventDefault();
     if (querySearch.length > 0) {
-      e.preventDefault();
       updateSearchQuery(querySearch);
       setQuerySearch('');
     }
